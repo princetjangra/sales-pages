@@ -1,0 +1,137 @@
+body{
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Utilities ------------ */
+
+.white {
+  color: white;
+}
+
+.pink-text{
+  color: #ed0e51;
+  font-weight: 600;
+}
+
+/* ------------ Utilities */
+
+
+
+/* Header ----------- */
+
+.header-container{
+  /* background-color: lightseagreen; */
+  background: url(./../img/header-bg.jpg) repeat 0 0 / cover;
+}
+  .header {
+  }
+  .top-headline h1 {
+    /* font-size: calc(100vw - (100vw*.96)); */
+  }
+    .white h4 {
+      font-weight: 400;
+    }
+    h1.white {
+      color: white;
+      font-weight: 400;
+      line-height: 1.1;
+      letter-spacing: -1px;
+    }
+      .pink-text + span {
+        font-weight: 600;
+      }
+    .header .video {
+      background: url(./../img/header-bg-video.png) repeat 0 0 / cover;
+    }
+      .header-features ul {
+        list-style-type: none;
+        /* list-style-image: url(./../img/tick.png); */
+      }
+        .header-features ul li {
+          background-image: url(./../img/tick.png);
+          background-repeat: no-repeat;
+          background-position: 0px 8px;
+          padding: 5px;
+          padding-left: 25px;
+        }
+    .header-bottom .time-box  {
+      background-color: rgba(255, 255, 255, 0.1);
+      font-size: 0.5rem;
+      padding: 0.25rem 0.75rem 0.45rem;
+      letter-spacing: 1px;
+    }
+      .header-bottom .time-box h3 {
+        font-family: Open Sans, Arial;
+      }
+      .header-bottom a {
+        background-color: #1cb85e;
+        font-weight: 600;
+        width: 200px;
+        text-decoration: none;
+        box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3);
+        padding: 1.1rem 1.5rem;
+      }
+      .header-bottom a h4 {
+        font-weight: 600;
+      }
+        .header-bottom a:hover {
+          color: white;
+          box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.4);
+        }
+
+/* ----------- Header */
+
+
+/* Section one ------------- */
+
+.section-one {
+  background-color: #ed0e51;
+}
+  .section-one .card {
+    border-radius: 20px;
+  }
+    .section-one .card p {
+      font-size: 0.85rem;
+    }
+      .card span.pink-text {
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: -1px;
+      }
+        .card div h5 {
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        .card div i {
+          color: #f4c022;
+        }
+  .section-one .container > div:nth-child(2) h1 {
+    font-weight: 700;
+  }
+  .section-one .container > div:nth-child(2) > div p {
+    font-size: 1.2rem;
+  }
+
+
+/* ------------- Section one */
+
+
+/* Niche Revolution start ------------- */
+
+.niche-revolution-section {
+  background: url(./../img/niche-rev-bg.png) repeat 0 0 / cover;
+}
+.niche-revolution-section .logo img, .niche-revolution-section .pink-text {
+  /* box-shadow: 20px 0px 42px rgba(0, 0, 0, 0.2); */
+}
+.niche-revolution-section h1.pink-text {
+  font-weight: 700;
+  letter-spacing: -2px;
+  /* text-shadow: 10px 10px 42px rgba(0, 0, 0, 0.2); */
+    text-shadow: 15px 25.981px 42px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+/* ------------- Niche Revolution start */
