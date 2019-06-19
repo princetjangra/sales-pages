@@ -122,16 +122,20 @@ body{
 .niche-revolution-section {
   background: url(./../img/niche-rev-bg.png) repeat 0 0 / cover;
 }
-.niche-revolution-section .logo img, .niche-revolution-section .pink-text {
-  /* box-shadow: 20px 0px 42px rgba(0, 0, 0, 0.2); */
-}
-.niche-revolution-section h1.pink-text {
-  font-weight: 700;
-  letter-spacing: -2px;
-  /* text-shadow: 10px 10px 42px rgba(0, 0, 0, 0.2); */
-    text-shadow: 15px 25.981px 42px rgba(0, 0, 0, 0.2);
-  
-}
+    .niche-revolution-section .logo img {
+      /* box-shadow: 20px 0px 42px rgba(0, 0, 0, 0.2); */
+      filter: drop-shadow(13px 10px 12px rgba(0, 0, 0, 0.2));
+    }
+    .niche-revolution-section h1.pink-text {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: -2px;
+      text-shadow: 6px 10px 16px rgba(0, 0, 0, 0.2);
+      /* text-shadow: 12px 20px 35px rgba(0, 0, 0, 0.2); */
+    }
+    .niche-revolution-section h1 + h1 {
+      font-weight: 700;
+    }
 
 
 /* ------------- Niche Revolution start */
