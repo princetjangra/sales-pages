@@ -236,3 +236,71 @@ p {
     }
 
 /* ------------- Why section end */
+
+
+
+/* Money section start ------------- */
+
+.money-section {
+  background: center no-repeat / cover url(./../img/money-section-bg.png);
+}
+.white-strip {
+  background-color: white;
+  box-shadow: 15px 25px 42px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------- Money section end */
+
+
+
+/* Moneyback section start ------------- */
+
+.moneyback-section {
+  background: center no-repeat / cover url(./../img/moneyback-section-bg.png);
+}
+  .moneyback-section .container h1 {
+    font-weight: 300;
+  }
+  .moneyback-section .card {
+    margin-top: 190px;
+  }
+  .moneyback-section .card p {
+    margin-top: -125px;
+  }
+    .seal-container {
+      position: relative;
+      top: -164px;
+      filter: drop-shadow(15px 26px 45px  rgba(0, 0, 0, 0.15));
+    }
+
+/* ------------- Moneyback section end */
+
+/* Moneyback section start ------------- */
+/* ------------- Moneyback section end */
+
+
+/* Freelance section start ------------- */
+
+.freelance-section {
+  background: center no-repeat / cover url(./../img/freelance-section-bg.png);
+}
+
+/* ------------- Freelance section end */
+
+
+
+/* Moneyback section start ------------- */
+
+.last-section {
+  background: center no-repeat / cover url(./../img/last-section-bg.png);
+}
+
+/* ------------- Moneyback section end */
+
+/* Footer */
+.footer {
+  background-color: #e9e9f5;
+}
+  .footer a {
+    text-decoration: none;
+  }
