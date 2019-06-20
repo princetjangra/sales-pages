@@ -111,6 +111,13 @@ ul {
   .video iframe {
     height: 17rem;
   }
+  .header-bottom a {
+    /* font-size: 1.5rem; */
+    /* padding: 1.5rem 1.25rem; */
+  }
+  .header-bottom a h3 {
+   font-size: 1.2rem;
+  }
 }
 @media (max-width: 767px) {
   .video iframe{
