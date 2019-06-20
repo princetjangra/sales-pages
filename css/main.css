@@ -4,13 +4,17 @@ body{
   text-align: center;
 }
 
+.row {
+  margin: 0;
+}
+
 /* Utilities ------------ */
 
 .white {
   color: white;
 }
 
-.pink-text{
+.pink{
   color: #ed0e51;
 }
 
@@ -29,6 +33,10 @@ body{
 
 p {
   font-size: 18px;
+}
+
+ul {
+  padding: 0;
 }
 
 /* ------------ Utilities */
@@ -273,6 +281,15 @@ p {
       filter: drop-shadow(15px 26px 45px  rgba(0, 0, 0, 0.15));
     }
 
+@media (max-width: 768px) {
+  .seal-container {
+    top: -7.7rem;
+  }
+  .moneyback-section .card p {
+    margin-top: -5.7rem;
+  }
+}
+
 /* ------------- Moneyback section end */
 
 /* Moneyback section start ------------- */
@@ -289,13 +306,16 @@ p {
 
 
 
-/* Moneyback section start ------------- */
+/* Last section section start ------------- */
 
 .last-section {
   background: center no-repeat / cover url(./../img/last-section-bg.png);
 }
+  .faq-container p {
+    margin-left: 1.8rem;
+  }
 
-/* ------------- Moneyback section end */
+/* ------------- Last section section end */
 
 /* Footer */
 .footer {
