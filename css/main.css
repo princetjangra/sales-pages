@@ -64,7 +64,7 @@ ul {
       letter-spacing: -1px;
     }
     .header .video {
-      background: url(./../img/header-bg-video.png) repeat 0 0 / cover;
+      background: center no-repeat / cover url(./../img/header-bg-video.png);
     }
       .features-list ul {
         list-style-type: none;
@@ -74,8 +74,9 @@ ul {
           background-image: url(./../img/tick.png);
           background-repeat: no-repeat;
           background-position: 0px 8px;
-          padding: 5px;
-          padding-left: 25px;
+          padding: 5px 5px 20px 25px;
+          font-style: 18px;
+          /* padding-left: 25px; */
         }
     .header-bottom .time-box  {
       background-color: #1d1945;
@@ -92,7 +93,7 @@ ul {
         width: 200px;
         text-decoration: none;
         box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3);
-        padding: 1rem 1.5rem;
+        padding: 1.5rem 2rem;
       }
       .header-bottom a h4 {
         font-weight: 600;
@@ -101,27 +102,26 @@ ul {
           color: white;
           box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.4);
         }
-
         .video iframe {
           width: 100%;
           height: 24.8rem;
           box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
         }
-        @media (max-width: 575px) {
-          .video iframe {
-            height: 17rem;
-          }
-        }
-        @media (max-width: 767px) {
-          .video iframe{
-            /* height: 12.5rem; */
-          }
-        }
-        @media (min-width: 768px) and (max-width: 992px) {
-          .video iframe {
-            height: 23.4rem;
-          }
-        }
+@media (max-width: 575px) {
+  .video iframe {
+    height: 17rem;
+  }
+}
+@media (max-width: 767px) {
+  .video iframe{
+    /* height: 12.5rem; */
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .video iframe {
+    height: 23.4rem;
+  }
+}
 
 /* ----------- Header */
 
@@ -211,6 +211,9 @@ ul {
   .how-it-works-bottom {
     background-color: white;
     border-radius: 50px;
+  }
+  .how-it-works .row p {
+    padding: 0 15px;
   }
 
   @media (min-width: 576px) {
@@ -341,6 +344,9 @@ ul {
 }
   .faq-container p {
     margin-left: 1.8rem;
+  }
+  .faq h4 span {
+    margin-right: 0.5rem;
   }
 
 /* ------------- Last section section end */
