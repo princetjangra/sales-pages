@@ -141,21 +141,27 @@ ul {
    .card {
     border-radius: 20px;
   }
-    .section-one .card p {
-      font-size: 0.9rem;
+    .section-one .card {
+      padding: 2.5rem 2.3rem 1.5rem;
     }
-      .card span.pink-text {
-        font-size: 1.4rem;
-        font-weight: 700;
-        letter-spacing: -1px;
+    .section-one .cards-group img {
+      border: 6px solid #f14276;
+    }
+      .section-one .card p {
+        font-size: 0.9rem;
       }
-        .card div h5 {
-          font-size: 1rem;
-          font-weight: 600;
+        .card span.pink-text {
+          font-size: 1.4rem;
+          font-weight: 700;
+          letter-spacing: -1px;
         }
-        .card div i {
-          color: #f4c022;
-        }
+          .card div h5 {
+            font-size: 1rem;
+            font-weight: 600;
+          }
+          .card div i {
+            color: #f4c022;
+          }
   .section-one .container > div:nth-child(2) h1 {
     font-weight: 700;
   }
@@ -285,6 +291,15 @@ ul {
 
 
 
+/* Commercial section start ------------- */
+
+.commercial-section {
+  background: center no-repeat / cover url(./../img/moneyback-section-bg.png);
+}
+
+/* ------------- Commercial section end */
+
+
 /* Money section start ------------- */
 
 .money-section {
@@ -296,6 +311,16 @@ ul {
 }
 
 /* ------------- Money section end */
+
+
+
+/* Bonus section start ------------- */
+
+.bonus-section {
+  background: center no-repeat / cover url(./../img/money-section-bg.png);
+}
+
+/* ------------- Bonus section end */
 
 
 
@@ -326,8 +351,13 @@ ul {
   .moneyback-section .card p {
     margin-top: -5.7rem;
   }
+.niche-revolution-section{
+  background: #fff;
 }
-
+.logo img{
+  width: 40%;
+}
+}
 /* ------------- Moneyback section end */
 
 /* Moneyback section start ------------- */
