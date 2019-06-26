@@ -1,0 +1,397 @@
+body{
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Utilities ------------ */
+
+.white {
+  color: white;
+}
+
+.pink{
+  color: #ed0e51;
+}
+
+.heading-bold {
+  /* font-weight: 600; */
+  font-weight: 700;
+}
+
+.ls-1px {
+  letter-spacing: -1px;
+}
+
+.png-shadow {
+  filter: drop-shadow(16px 18px 20px rgba(0, 0, 0, 0.1));
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  padding: 0;
+}
+
+/* ------------ Utilities */
+
+
+
+/* Header ----------- */
+
+.header-container{
+  /* background-color: lightseagreen; */
+  background: center no-repeat / cover url(./../img/header-bg.jpg);
+}
+  .header {
+  }
+  .top-headline h1 {
+    /* font-size: calc(100vw - (100vw*.96)); */
+  }
+    .white h4 {
+      font-weight: 400;
+    }
+    h1.white {
+      color: white;
+      font-weight: 400;
+      line-height: 1.1;
+      letter-spacing: -1px;
+    }
+    .header .video {
+      background: center no-repeat / cover url(./../img/header-bg-video.png);
+    }
+      .features-list ul {
+        list-style-type: none;
+        /* list-style-image: url(./../img/tick.png); */
+      }
+        .features-list ul li {
+          background-image: url(./../img/tick.png);
+          background-repeat: no-repeat;
+          background-position: 0px 8px;
+          padding: 5px 5px 20px 25px;
+          font-style: 18px;
+          /* padding-left: 25px; */
+        }
+    .header-bottom .time-box  {
+      background-color: #1d1945;
+      font-size: 0.5rem;
+      padding: 0.25rem 0.75rem 0.45rem;
+      letter-spacing: 1px;
+    }
+      .header-bottom .time-box h3 {
+        font-family: Open Sans, Arial;
+      }
+      .header-bottom a {
+        background-color: #1cb85e;
+        font-weight: 600;
+        width: 200px;
+        text-decoration: none;
+        box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3);
+        padding: 1.5rem 2rem;
+      }
+      .header-bottom a h4 {
+        font-weight: 600;
+      }
+        .header-bottom a:hover {
+          color: white;
+          box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.4);
+        }
+        .video iframe {
+          width: 100%;
+          height: 24.8rem;
+          box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+        }
+@media (max-width: 575px) {
+  .video iframe {
+    height: 17rem;
+  }
+  .header-bottom a {
+    /* font-size: 1.5rem; */
+    /* padding: 1.5rem 1.25rem; */
+  }
+  .header-bottom a h3 {
+   font-size: 1.2rem;
+  }
+}
+@media (max-width: 767px) {
+  .video iframe{
+    /* height: 12.5rem; */
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .video iframe {
+    height: 23.4rem;
+  }
+}
+
+/* ----------- Header */
+
+
+/* Section one ------------- */
+
+.section-one {
+  background: center no-repeat / cover  url(./../img/section-one-bg.png);
+}
+   .card {
+    border-radius: 20px;
+  }
+    .section-one .card {
+      padding: 2.5rem 2.3rem 1.5rem;
+    }
+    .section-one .cards-group img {
+      border: 6px solid #f14276;
+    }
+      .section-one .card p {
+        font-size: 0.9rem;
+      }
+        .card span.pink-text {
+          font-size: 1.4rem;
+          font-weight: 700;
+          letter-spacing: -1px;
+        }
+          .card div h5 {
+            font-size: 1rem;
+            font-weight: 600;
+          }
+          .card div i {
+            color: #f4c022;
+          }
+  .section-one .container > div:nth-child(2) h1 {
+    font-weight: 700;
+  }
+  .section-one .container > div:nth-child(2) > div p {
+    font-size: 1.2rem;
+  }
+
+
+/* ------------- Section one */
+
+
+/* Niche Revolution start ------------- */
+
+.niche-revolution-section {
+  background: center no-repeat / cover url(./../img/niche-rev-bg.png);
+  /* background-position: center; */
+}
+    .niche-revolution-section .logo img {
+      /* box-shadow: 20px 0px 42px rgba(0, 0, 0, 0.2); */
+      filter: drop-shadow(13px 10px 12px rgba(0, 0, 0, 0.2));
+    }
+    .niche-revolution-section h1.pink-text {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: -2px;
+      text-shadow: 6px 10px 16px rgba(0, 0, 0, 0.2);
+      /* text-shadow: 12px 20px 35px rgba(0, 0, 0, 0.2); */
+    }
+    .niche-revolution-section h1 + h1 {
+      letter-spacing: -1px;
+      line-height: 1;
+      /* font-weight: 700; */
+    }
+
+
+/* ------------- Niche Revolution end */
+
+
+
+/* How it works start ------------- */
+
+.how-it-works {
+  background: center no-repeat / cover url(./../img/how-it-works-bg.png);
+}
+  .how-it-works .container > h1:first-child {
+    font-weight: 700;
+    letter-spacing: -1px
+  }
+  .step {
+    background-color: #ed0e51;
+    font-weight: 600;
+  }
+  .step + h3 {
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+  .how-it-works p {
+    margin-bottom: 1.5rem;
+  }
+  .how-it-works-bottom {
+    background-color: white;
+    border-radius: 50px;
+  }
+  .how-it-works .row p {
+    padding: 0 15px;
+  }
+
+  @media (min-width: 576px) {
+  .how-it-works-bottom {
+    border-radius: 50rem;
+  }
+}
+
+/* ------------- How it works end */
+
+
+
+/* Simplified start ------------- */
+
+.simplified-section {
+  background: center no-repeat / cover url(./../img/simplified-section-bg.png);
+}
+
+/* ------------- Simplified end */
+
+
+
+/* Watch now section start ------------- */
+
+.watch-now-section {
+  background: center no-repeat / cover url(./../img/watch-now-section-bg.png);
+}
+  .watch-now-section .note {
+    background-color: #fc3973;
+  }
+
+/* ------------- Watch now section end */
+
+
+
+/* Why section start ------------- */
+
+.why-section {
+  background: center no-repeat / cover url(./../img/why-section-bg.png);
+}
+    .why-section .card span.pink-text {
+      font-size: 1rem;
+      letter-spacing: -1px;
+    }
+    .why-section .card {
+      /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); */
+      box-shadow: 10px 17px 35px 0px rgba(0, 0, 0, 0.2);
+    }
+    .why-section ul {
+      list-style-type: none;
+    }
+    .why-section ul li::before {
+      color: #ed0e51;
+      content: "\2022";
+      font-weight: 800;
+      display: inline-block; 
+      width: 0.75em;
+      margin-left: -1em;
+    }
+
+/* ------------- Why section end */
+
+
+
+/* Commercial section start ------------- */
+
+.commercial-section {
+  background: center no-repeat / cover url(./../img/moneyback-section-bg.png);
+}
+
+/* ------------- Commercial section end */
+
+
+/* Money section start ------------- */
+
+.money-section {
+  background: center no-repeat / cover url(./../img/money-section-bg.png);
+}
+.white-strip {
+  background-color: white;
+  box-shadow: 15px 25px 42px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------- Money section end */
+
+
+
+/* Bonus section start ------------- */
+
+.bonus-section {
+  background: center no-repeat / cover url(./../img/money-section-bg.png);
+}
+
+/* ------------- Bonus section end */
+
+
+
+/* Moneyback section start ------------- */
+
+.moneyback-section {
+  background: center no-repeat / cover url(./../img/moneyback-section-bg.png);
+}
+  .moneyback-section .container h1 {
+    font-weight: 300;
+  }
+  .moneyback-section .card {
+    margin-top: 190px;
+  }
+  .moneyback-section .card p {
+    margin-top: -125px;
+  }
+    .seal-container {
+      position: relative;
+      top: -164px;
+      filter: drop-shadow(15px 26px 45px  rgba(0, 0, 0, 0.15));
+    }
+
+@media (max-width: 768px) {
+  .seal-container {
+    top: -7.7rem;
+  }
+  .moneyback-section .card p {
+    margin-top: -5.7rem;
+  }
+.niche-revolution-section{
+  background: #fff;
+}
+.logo img{
+  width: 40%;
+}
+}
+/* ------------- Moneyback section end */
+
+/* Moneyback section start ------------- */
+/* ------------- Moneyback section end */
+
+
+/* Freelance section start ------------- */
+
+.freelance-section {
+  background: center no-repeat / cover url(./../img/freelance-section-bg.png);
+}
+
+/* ------------- Freelance section end */
+
+
+
+/* Last section section start ------------- */
+
+.last-section {
+  background: center no-repeat / cover url(./../img/last-section-bg.png);
+}
+  .faq-container p {
+    margin-left: 1.8rem;
+  }
+  .faq h4 span {
+    margin-right: 0.5rem;
+  }
+
+/* ------------- Last section section end */
+
+/* Footer */
+.footer {
+  background-color: #e9e9f5;
+}
+  .footer a {
+    text-decoration: none;
+  }
