@@ -314,6 +314,16 @@ ul {
    background: url(./../img/save-bg.png) center / cover no-repeat;
 }
 
+/* Dashboard ---------------- */
+.dashboard-section {
+   background: url(./../img/dashboard-bg.png) center / cover no-repeat;
+}
+
+/* Expensive ---------------- */
+.expensive-section {
+   background: url(./../img/expensive-bg.png) center / cover no-repeat;
+}
+
 /* Launch */
 .launch-section {
    background: url(./../img/launch-bg.png) center / cover no-repeat;
