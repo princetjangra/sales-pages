@@ -1,6 +1,7 @@
 body {
    text-align: center;
    font-family: "Montserrat", Helvetica, "Segoe UI", Arial, sans-serif;
+   overflow-x: hidden;
 }
 .row {
    margin: 0;
@@ -51,7 +52,13 @@ body {
 }
 
 .h-1 {
-   font-size: 1.75rem;
+   font-size: 1.5rem;
+}
+@media (max-width: 575px) {
+   .h-1 {
+      font-size: 1.25rem;
+      /* font-weight: 400; */
+   }
 }
 .b-1 {
    font-weight: 700;
@@ -133,6 +140,12 @@ ul {
    border-radius: 30px;
 }
 
+@media (max-width: 575px) {
+   .rounded-pill {
+      /* border-radius: 15px !important; */
+   }
+}
+
 /* Head section */
 
 .head-section {
@@ -155,11 +168,11 @@ ul {
 .head-bottom a {
    background-color: #1cb85e;
    font-weight: 600;
-   width: 200px;
+   /* width: 200px; */
    text-decoration: none;
    /* box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3); */
    box-shadow: 10px 17px 35px 0px rgba(0, 0, 0, 0.2);
-   padding: 1.5rem 2rem;
+   padding: 1rem 2rem;
 }
 .head-bottom a h4 {
    font-weight: 600;
@@ -312,6 +325,18 @@ ul {
 /* Save */
 .save-section {
    background: url(./../img/save-bg.png) center / cover no-repeat;
+}
+
+.cross-list li {
+   line-height: 22px;
+   list-style: none;
+   background: url(../img/cross.png) 0px 10px / 50px no-repeat;
+   padding: 7px;
+   text-align: left;
+
+   min-height: 61px;
+   margin: 0 0 0.75rem;
+   padding-left: 3.5rem;
 }
 
 /* Dashboard ---------------- */
