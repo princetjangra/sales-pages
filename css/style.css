@@ -133,7 +133,7 @@ ul {
 /* Head section */
 
 .head-section {
-   background: center no-repeat / cover url(./../img/head-bg.png);
+   background: url(./../img/head-bg.png) center / cover no-repeat;
 }
 .head-section .logo img {
    filter: drop-shadow(5px 8px 8px rgba(0, 0, 0, 0.25));
@@ -185,13 +185,13 @@ ul {
 /* Shortcut ------------- */
 
 .shortcut-section {
-   background: center no-repeat / cover url(./../img/shortcut-bg.png);
+   background: url(./../img/shortcut-bg.png) center / cover no-repeat;
 }
 
 /* Evolution ------------- */
 
 .evolution-section {
-   background: center no-repeat / cover url(./../img/evolution-bg.png);
+   background: url(./../img/evolution-bg.png) center / cover no-repeat;
 }
 .feature-image > div:first-of-type {
    box-shadow: 10px 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -213,7 +213,7 @@ ul {
 /* Insider ------------- */
 
 .insider-section {
-   background: center no-repeat / cover url(./../img/insider-bg.png);
+   background: url(./../img/insider-bg.png) center / cover no-repeat;
 }
 .image-card {
    filter: drop-shadow(0.5rem 1rem 0.8rem rgba(0, 0, 0, 0.15));
@@ -221,99 +221,99 @@ ul {
 
 /* Planet ------------- */
 .planet-section {
-   background: center no-repeat / cover url(./../img/planet-bg.png);
+   background: url(./../img/planet-bg.png) center / cover no-repeat;
 }
 
 /* Powerful ------------- */
 
 .powerful-section {
-   background: center no-repeat / cover url(./../img/powerful-bg.png);
+   background: url(./../img/powerful-bg.png) center / cover no-repeat;
 }
 
 /* Blow ------------- */
 
 .blow-section {
-   background: center no-repeat / cover url(./../img/blow-bg.png);
+   background: url(./../img/blow-bg.png) center / cover no-repeat;
 }
 
 /* Zero ------------- */
 .zero-section {
-   background: center no-repeat / cover url(./../img/zero-bg.png);
+   background: url(./../img/zero-bg.png) center / cover no-repeat;
 }
 
 /* Simple */
 .simple-section {
-   background: center no-repeat / cover url(./../img/simple-bg.png);
+   background: url(./../img/simple-bg.png) center / cover no-repeat;
 }
 
 /* Solution */
 .solution-section {
-   background: center no-repeat / cover url(./../img/solution-bg.png);
+   background: url(./../img/solution-bg.png) center / cover no-repeat;
 }
 
 /* Hoping */
 .hoping-section {
-   background: center no-repeat / cover url(./../img/hoping-bg.png);
+   background: url(./../img/hoping-bg.png) center / cover no-repeat;
 }
 
 /* Popping */
 .popping-section {
-   background: center no-repeat / cover url(./../img/popping-bg.png);
+   background: url(./../img/popping-bg.png) center / cover no-repeat;
 }
 
 /* Welcome */
 .welcome-section {
-   background: center no-repeat / cover url(./../img/welcome-bg.png);
+   background: url(./../img/welcome-bg.png) center / cover no-repeat;
 }
 
 /* Everyday */
 .everyday-section {
-   background: center no-repeat / cover url(./../img/everyday-bg.png);
+   background: url(./../img/everyday-bg.png) center / cover no-repeat;
 }
 
 /* Step */
 .step-section {
-   background: center no-repeat / cover url(./../img/step-bg.png);
+   background: url(./../img/step-bg.png) center / cover no-repeat;
 }
 
 /* Demo */
 .demo-section {
-   background: center no-repeat / cover url(./../img/demo-bg.png);
+   background: url(./../img/demo-bg.png) center / cover no-repeat;
 }
 
 /* Leverage */
 .leverage-section {
-   background: center no-repeat / cover url(./../img/leverage-bg.png);
+   background: url(./../img/leverage-bg.png) center / cover no-repeat;
 }
 
 /* Promote */
 .promote-section {
-   background: center no-repeat / cover url(./../img/promote-bg.png);
+   background: url(./../img/promote-bg.png) center / cover no-repeat;
 }
 
 /* Competition */
 .competition-section {
-   background: center no-repeat / cover url(./../img/competition-bg.png);
+   background: url(./../img/competition-bg.png) center / cover no-repeat;
 }
 
 /* Convert */
 .convert-section {
-   background: center no-repeat / cover url(./../img/convert-bg.png);
+   background: url(./../img/convert-bg.png) center / cover no-repeat;
 }
 
 /* Service  ----------------- */
 .service-section {
-   background: center no-repeat / cover url(./../img/service-bg.png);
+   background: url(./../img/service-bg.png) center / cover no-repeat;
 }
 
 /* Everything  ----------------- */
 .everything-section {
-   background: center no-repeat / cover url(./../img/everything-bg.png);
+   background: url(./../img/everything-bg.png) center / cover no-repeat;
 }
 
 /* Banking -------------------- */
 .banking-section {
-   background: center no-repeat / cover url(./../img/banking-bg.png);
+   background: url(./../img/banking-bg.png) center / cover no-repeat;
 }
 .banking-section img {
    width: 70%;
@@ -321,12 +321,12 @@ ul {
 
 /* Bonus --------------- */
 .bonus-section {
-   background: center no-repeat / cover url(./../img/bonus-bg.png);
+   background: url(./../img/bonus-bg.png) center / cover no-repeat;
 }
 
 /* Guarantee ---------------- */
 .guarantee-section {
-   background: center no-repeat / cover url(./../img/guarantee-bg.png);
+   background: url(./../img/guarantee-bg.png) center / cover no-repeat;
 }
 
 .white-box {
@@ -346,12 +346,12 @@ ul {
 
 /* faq ---------------- */
 .faq-section {
-   background: center no-repeat / cover url(./../img/faq-bg.png);
+   background: url(./../img/faq-bg.png) center / cover no-repeat;
 }
 
 /* copyright ---------------- */
 .copyright-section {
-   background: center no-repeat / cover url(./../img/copyright-bg.png);
+   background: url(./../img/copyright-bg.png) center / cover no-repeat;
 }
 .copyright-section ul {
    display: flex;
