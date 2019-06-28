@@ -2,6 +2,9 @@ body {
    text-align: center;
    font-family: "Montserrat", Helvetica, "Segoe UI", Arial, sans-serif;
 }
+.row {
+   margin: 0;
+}
 
 /* ------------ Utilities ------------ */
 
@@ -299,6 +302,26 @@ ul {
 /* Convert */
 .convert-section {
    background: url(./../img/convert-bg.png) center / cover no-repeat;
+}
+
+/* Skyrocket */
+.sky-section {
+   background: url(./../img/sky-bg.png) center / cover no-repeat;
+}
+
+/* Save */
+.save-section {
+   background: url(./../img/save-bg.png) center / cover no-repeat;
+}
+
+/* Launch */
+.launch-section {
+   background: url(./../img/launch-bg.png) center / cover no-repeat;
+}
+
+/* Average */
+.average-section {
+   background: url(./../img/average-bg.png) center / cover no-repeat;
 }
 
 /* Service  ----------------- */
