@@ -215,10 +215,15 @@ ul {
 .feature-image img {
    filter: drop-shadow(6px 9px 12px rgba(0, 0, 0, 0.12));
 }
+
+.strips {
+   padding-left: 1.5rem;
+}
 .strips .strip {
-   min-height: 4.75rem;
+   /* min-height: 4.75rem; */
    box-shadow: 4px 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
 }
+
 .strip img {
    /* background: top left no-repeat url(./../img/tick-shadow.png); */
    position: relative;
