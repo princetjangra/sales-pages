@@ -2,6 +2,7 @@ body {
    text-align: center;
    font-family: "Montserrat", Helvetica, "Segoe UI", Arial, sans-serif;
    overflow-x: hidden;
+   color: #313131;
 }
 .row {
    margin: 0;
@@ -12,18 +13,25 @@ body {
 /* Colors */
 
 .black {
-   color: #3e3e3e;
+   color: #313131;
 }
 .white {
    color: white;
 }
 
+.theme {
+   color: #101d42;
+}
+
 .yellow {
-   color: #fff367;
+   color: #ffdc15;
+}
+.d-yellow {
+   color: #ffb515;
 }
 
 .orange {
-   color: #f47322;
+   color: #fb6107;
 }
 
 .l-green {
@@ -35,8 +43,19 @@ body {
 .vd-green {
    color: #053f39;
 }
-.bg-d-green {
-   background-color: #146864;
+.bg-theme {
+   background-color: #133379;
+}
+.bg-d-theme {
+   background-color: #1a2955;
+}
+
+.bg-theme2 {
+   background-color: #ffdc15;
+}
+
+.bg-grey {
+   background-color: #fafafa;
 }
 
 .gradient-bg {
@@ -44,6 +63,9 @@ body {
 }
 
 /* Fonts */
+.f-3 {
+   font-size: 3rem;
+}
 .f-20 {
    font-size: 20px;
 }
@@ -60,19 +82,22 @@ body {
       /* font-weight: 400; */
    }
 }
-.b-1 {
+.b-7 {
    font-weight: 700;
 }
-.b-2 {
+.b-6 {
    font-weight: 600;
 }
-.b-3 {
+.b-5 {
    font-weight: 500;
 }
 .b-4 {
    font-weight: 400;
 }
-.b-0 {
+.b-3 {
+   font-weight: 300;
+}
+.b-1 {
    font-weight: 100;
 }
 
@@ -106,6 +131,14 @@ body {
    text-shadow: 4px 7px 12px rgba(0, 0, 0, 0.15);
 }
 
+.rounded-1 {
+   border-radius: 1rem;
+}
+
+.rounded-2 {
+   border-radius: 0.5rem;
+}
+
 ul {
    padding-left: 0;
 }
@@ -117,11 +150,11 @@ ul {
    /* list-style-image: 0 0 url(./../img/head-logo.png); */
 }
 .features-list ul li {
-   min-height: 61px;
-   margin: 0 0 0.75rem;
-   background: no-repeat 0px 0px url(./../img/tick.png);
+   /* min-height: 61px; */
+   margin: 0 0 1rem;
+   background: no-repeat 0px 7px url(./../img/tick.png);
    /* box-shadow: 4px 5px 3px #000; */
-   padding-left: 3.5rem;
+   padding-left: 2rem;
 }
 
 .time-box {
@@ -148,15 +181,12 @@ ul {
 
 /* Head section */
 
-.head-section {
-   background: url(./../img/head-bg.png) center / cover no-repeat;
+.section1 {
+   background: url(./../img/section1-bg.png) center / cover no-repeat;
 }
-.head-section .logo img {
+.logo img {
    filter: drop-shadow(5px 8px 8px rgba(0, 0, 0, 0.25));
    color: #fff;
-}
-.head-section .container > :nth-child(4) {
-   font-size: 1.25rem;
 }
 
 .video iframe {
@@ -175,35 +205,35 @@ ul {
    }
 }
 
-.head-bottom a {
-   background-color: #1cb85e;
-   font-weight: 600;
-   /* width: 200px; */
+.button-container a {
+   background-color: #ffdc15;
+   color: #101d42;
+   font-weight: 700;
    text-decoration: none;
    /* box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3); */
    box-shadow: 10px 17px 35px 0px rgba(0, 0, 0, 0.2);
    padding: 1rem 2rem;
 }
-.head-bottom a h4 {
+.button-container a h4 {
    font-weight: 600;
 }
-.head-bottom a:hover {
-   color: white;
+.button-container a:hover {
+   color: #051541;
    box-shadow: 14px 21px 35px rgba(0, 0, 0, 0.2);
 }
 
 /* ----------- Head */
 
-/* Shortcut ------------- */
+/* Section 2 ------------- */
 
-.shortcut-section {
-   background: url(./../img/shortcut-bg.png) center / cover no-repeat;
+.section2 {
+   background: url(./../img/section2-bg.png) center / cover no-repeat;
 }
 
-/* Evolution ------------- */
+/* Section 3 ------------- */
 
-.evolution-section {
-   background: url(./../img/evolution-bg.png) center / cover no-repeat;
+.section3 {
+   background: url(./../img/section3-bg.png) center / cover no-repeat;
 }
 .feature-image > div:first-of-type {
    box-shadow: 10px 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -212,39 +242,21 @@ ul {
    filter: drop-shadow(6px 9px 12px rgba(0, 0, 0, 0.12));
 }
 
-.strips {
-   padding-left: 1.5rem;
-}
-.strips .strip {
-   /* min-height: 4.75rem; */
-   box-shadow: 4px 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+/* Section 4 ------------- */
+
+.section4 {
+   background: url(./../img/section4-bg.png) center / cover no-repeat;
 }
 
-.strip img {
-   /* background: top left no-repeat url(./../img/tick-shadow.png); */
-   position: relative;
-   top: 11px;
-   left: -25px;
+/* Section 5 ------------- */
+.section5 {
+   background: url(./../img/section5-bg.png) center / cover no-repeat;
 }
 
-/* Insider ------------- */
+/* Section 6 ------------- */
 
-.insider-section {
-   background: url(./../img/insider-bg.png) center / cover no-repeat;
-}
-.image-card {
-   filter: drop-shadow(0.5rem 1rem 0.8rem rgba(0, 0, 0, 0.15));
-}
-
-/* Planet ------------- */
-.planet-section {
-   background: url(./../img/planet-bg.png) center / cover no-repeat;
-}
-
-/* Powerful ------------- */
-
-.powerful-section {
-   background: url(./../img/powerful-bg.png) center / cover no-repeat;
+.section6 {
+   background: url(./../img/section6-bg.png) center / cover no-repeat;
 }
 
 /* Blow ------------- */
