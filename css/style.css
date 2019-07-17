@@ -515,6 +515,12 @@ a.theme:hover {
 .section7 {
    background: url(./../img/section7-bg.png) center / cover no-repeat;
 }
+@media (max-width: 576px) {
+   .section7 h3.rounded-pill {
+      border-radius: 2rem !important;
+   }
+}
+
 .section8 {
    background: url(./../img/section8-bg.png) center / cover no-repeat;
 }
