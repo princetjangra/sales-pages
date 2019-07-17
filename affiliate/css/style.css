@@ -1,13 +1,8 @@
-@font-face {
-   font-family: Montserrat;
-   src: url("./../fonts/Montserrat-Regular.ttf");
-}
-
 body {
    text-align: center;
    font-family: "Montserrat", Helvetica, "Segoe UI", Arial, sans-serif;
    overflow-x: hidden;
-   color: #313131;
+   color: #666666;
 }
 .row {
    margin: 0;
@@ -29,11 +24,19 @@ p {
 }
 
 .theme {
-   color: #101d42;
+   color: #1274bd;
+}
+
+.d-theme {
+   color: #00528e;
+}
+
+.green {
+   color: #8fc440;
 }
 
 .yellow {
-   color: #ffdc15;
+   color: #fcec52;
 }
 .d-yellow {
    color: #ffb515;
@@ -152,6 +155,7 @@ p {
    padding-left: 2rem !important;
    padding-right: 2rem !important;
 }
+
 .png-shadow {
    filter: drop-shadow(5px 8px 8px rgba(0, 0, 0, 0.15));
 }
@@ -178,7 +182,61 @@ ul {
    background-size: cover;
 }
 
+.strike {
+   text-decoration: line-through;
+}
+
 /* Common elements */
+
+.white-strip {
+   display: inline-block;
+   padding: 1rem 1.5rem;
+   background-color: white;
+   color: #1274bd;
+   border-radius: 50rem;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.yellow-strip {
+   display: inline-block;
+   background-color: #ffef00;
+   font-weight: 700;
+   color: #00528e;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.blue-strip {
+   display: inline-block;
+   background-color: #1274bd;
+   font-weight: 700;
+   color: white;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.green-strip {
+   display: inline-block;
+   background-color: #8fc43f;
+   font-weight: 700;
+   color: white;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.circle-icon {
+   width: 200px;
+   height: 200px;
+   border-radius: 50rem;
+   padding: 0.5rem;
+   background-color: white;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.row-white-box {
+   background-color: white;
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
 
 a.theme:hover {
    text-decoration: none;
@@ -223,10 +281,11 @@ a.theme:hover {
 /* Head section */
 
 .section1 {
-   background: url(./../img/section1-bg.png) center / cover no-repeat;
+   background: url(./../img/section1.png) center / cover no-repeat;
 }
+
 .logo img {
-   filter: drop-shadow(5px 8px 8px rgba(0, 0, 0, 0.25));
+   filter: drop-shadow(5px 8px 4px rgba(0, 0, 0, 0.15));
    color: #fff;
 }
 
@@ -247,20 +306,26 @@ a.theme:hover {
 }
 
 .button-container a {
-   background-color: #ffdc15;
-   color: #101d42;
+   background-color: #ffef00;
+   color: #00528e;
    font-weight: 700;
    text-decoration: none;
    /* box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3); */
    box-shadow: 10px 17px 35px 0px rgba(0, 0, 0, 0.2);
+   transition: 0.4s ease transform;
+
    padding: 1rem 2rem;
 }
 .button-container a h4 {
    font-weight: 600;
 }
 .button-container a:hover {
-   color: #051541;
-   box-shadow: 14px 21px 35px rgba(0, 0, 0, 0.2);
+   /* color: #004272; */
+   box-shadow: 18px 25px 35px rgba(0, 0, 0, 0.2);
+   -webkit-transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   -o-transform: scale(1.05);
+   transform: scale(1.05);
 }
 
 /* ----------- Head */
@@ -268,13 +333,13 @@ a.theme:hover {
 /* Section 2 ------------- */
 
 .section2 {
-   background: url(./../img/section2-bg.png) center / cover no-repeat;
+   background: url(./../img/section2.png) center / cover no-repeat;
 }
 
 /* Section 3 ------------- */
 
 .section3 {
-   background: url(./../img/section3-bg.png) center / cover no-repeat;
+   background: url(./../img/section3.png) center / cover no-repeat;
 }
 .feature-image > div:first-of-type {
    box-shadow: 10px 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -286,54 +351,54 @@ a.theme:hover {
 /* Section 4 ------------- */
 
 .section4 {
-   background: url(./../img/section4-bg.png) center / cover no-repeat;
+   background: url(./../img/section4.png) center / cover no-repeat;
 }
 
 /* Section 5 ------------- */
 .section5 {
-   background: url(./../img/section5-bg.png) center / cover no-repeat;
+   background: url(./../img/section5.png) center / cover no-repeat;
 }
 
 /* Section 6 ------------- */
 
 .section6 {
-   background: url(./../img/section6-bg.png) center / cover no-repeat;
+   background: url(./../img/section6.png) center / cover no-repeat;
 }
 
 /* Blow ------------- */
 
 .blow-section {
-   background: url(./../img/blow-bg.png) center / cover no-repeat;
+   background: url(./../img/blow.png) center / cover no-repeat;
 }
 
 /* Zero ------------- */
 .zero-section {
-   background: url(./../img/zero-bg.png) center / cover no-repeat;
+   background: url(./../img/zero.png) center / cover no-repeat;
 }
 
 /* Simple */
 .simple-section {
-   background: url(./../img/simple-bg.png) center / cover no-repeat;
+   background: url(./../img/simple.png) center / cover no-repeat;
 }
 
 /* Section 10 */
 .section10 {
-   background: url(./../img/section10-bg.png) center / cover no-repeat;
+   background: url(./../img/section10.png) center / cover no-repeat;
 }
 
 /* Section 11 */
 .section11 {
-   background: url(./../img/section11-bg.png) center / cover no-repeat;
+   background: url(./../img/section11.png) center / cover no-repeat;
 }
 
 /* Section 12 */
 .section12 {
-   background: url(./../img/section12-bg.png) center / cover no-repeat;
+   background: url(./../img/section12.png) center / cover no-repeat;
 }
 
 /* Section 13 */
 .section13 {
-   background: url(./../img/section13-bg.png) center / cover no-repeat;
+   background: url(./../img/section13.png) center / cover no-repeat;
 }
 
 .section13 .rounded-circle {
@@ -353,17 +418,17 @@ a.theme:hover {
 
 /* Section 15 */
 .section15 {
-   background: url(./../img/section15-bg.png) center / cover no-repeat;
+   background: url(./../img/section15.png) center / cover no-repeat;
 }
 
 /* Section 16 */
 .section16 {
-   background: url(./../img/section16-bg.png) center / cover no-repeat;
+   background: url(./../img/section16.png) center / cover no-repeat;
 }
 
 /* Section 17 */
 .section17 {
-   background: url(./../img/section17-bg.png) center / cover no-repeat;
+   background: url(./../img/section17.png) center / cover no-repeat;
 }
 
 .section17 .features-list ul {
@@ -372,22 +437,22 @@ a.theme:hover {
 
 /* Section 18 */
 .section18 {
-   background: url(./../img/section18-bg.png) center / cover no-repeat;
+   background: url(./../img/section18.png) center / cover no-repeat;
 }
 
 /* Section 19 */
 .section19 {
-   background: url(./../img/section19-bg.png) center / cover no-repeat;
+   background: url(./../img/section19.png) center / cover no-repeat;
 }
 
 /* Section 20 */
 .section20 {
-   background: url(./../img/section20-bg.png) center / cover no-repeat;
+   background: url(./../img/section20.png) center / cover no-repeat;
 }
 
 /* Section 21 */
 .section21 {
-   background: url(./../img/section21-bg.png) center / cover no-repeat;
+   background: url(./../img/section21.png) center / cover no-repeat;
 }
 
 .section21 .features-list ul li {
@@ -415,7 +480,7 @@ a.theme:hover {
 
 /* Section 22 */
 .section22 {
-   background: url(./../img/section22-bg.png) center / cover no-repeat;
+   background: url(./../img/section22.png) center / cover no-repeat;
 }
 
 .section22 .features-list ul li {
@@ -424,7 +489,7 @@ a.theme:hover {
 
 /* Footer */
 .section22 {
-   background: url(./../img/section22-bg.png) center / cover no-repeat;
+   background: url(./../img/section22.png) center / cover no-repeat;
 }
 
 .cross-list li {
