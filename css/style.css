@@ -1,15 +1,29 @@
 body {
    text-align: center;
-   font-family: "Montserrat", Helvetica, "Segoe UI", Arial, sans-serif;
+   font-family: "Poppins", Helvetica, "Segoe UI", Arial, sans-serif;
    overflow-x: hidden;
-   color: #666666;
+   color: #626262;
 }
 .row {
    margin: 0;
 }
 
+h1 {
+   font-size: 55px;
+}
+
+@media (max-width: 575px) {
+   h1 {
+      font-size: 35px;
+   }
+
+   p {
+      font-size: 18px;
+   }
+}
+
 p {
-   font-size: 18px;
+   font-size: 20px;
 }
 
 /* ------------ Utilities ------------ */
@@ -23,45 +37,20 @@ p {
    color: white;
 }
 
-.theme {
-   color: #1274bd;
+.pink {
+   color: #ee4266;
 }
 
-.d-theme {
-   color: #00528e;
+.purple {
+   color: #523889;
 }
 
-.green {
-   color: #8fc440;
+.d-purple {
+   color: #22223b;
 }
 
-.yellow {
-   color: #fcec52;
-}
-.d-yellow {
-   color: #ffb515;
-}
-
-.orange {
-   color: #fb6107;
-}
-
-.bg-theme {
-   background-color: #133379;
-}
-.bg-d-theme {
-   background-color: #1a2955;
-}
-.bg-d-theme2 {
-   background-color: #101d42;
-}
-
-.bg-theme2 {
-   background-color: #ffdc15;
-}
-
-.bg-theme3 {
-   background-color: #fb6107;
+.red {
+   color: #be1313;
 }
 
 .bg-grey {
@@ -72,12 +61,16 @@ p {
    background: no-repeat linear-gradient(90deg, #ffdc15, #fcb017);
 }
 
-.bg-paint {
-   background: url("./../img/paint.png") center no-repeat;
+.bg-red-paint {
+   background: url("./../img/red-paint.png") center no-repeat;
 }
 
-.bg-long-paint {
-   background: url("./../img/long-paint.png") center / cover no-repeat;
+.bg-red-paint-lg {
+   background: url("./../img/red-paint-lg.png") center no-repeat;
+}
+
+.bg-purple-paint {
+   background: url("./../img/purple-paint.png") center / cover no-repeat;
 }
 
 .bg-orange-paint {
@@ -101,7 +94,6 @@ p {
 @media (max-width: 575px) {
    .h-1 {
       font-size: 1.15rem;
-      /* font-weight: 400; */
    }
 }
 .b-7 {
