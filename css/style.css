@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-   font-size: 55px;
+   /* font-size: 55px; */
 }
 
 @media (max-width: 575px) {
