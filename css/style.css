@@ -365,22 +365,6 @@ a.theme:hover {
    background: url(./../img/section6.png) center / cover no-repeat;
 }
 
-/* Blow ------------- */
-
-.blow-section {
-   background: url(./../img/blow.png) center / cover no-repeat;
-}
-
-/* Zero ------------- */
-.zero-section {
-   background: url(./../img/zero.png) center / cover no-repeat;
-}
-
-/* Simple */
-.simple-section {
-   background: url(./../img/simple.png) center / cover no-repeat;
-}
-
 /* Section 10 */
 .section10 {
    background: url(./../img/section10.png) center / cover no-repeat;
@@ -487,6 +471,90 @@ a.theme:hover {
    background-position: 0px 2px;
 }
 
+/* Section 23 ------------- */
+
+.section23 {
+   background: url(./../img/section23.png) center / cover no-repeat;
+}
+
+/* Section 24 ------------- */
+
+.section24 {
+   background: url(./../img/section24.png) center / cover no-repeat;
+}
+
+/* Section 25 ------------- */
+
+.section25 {
+   background: url(./../img/section25.png) center / cover no-repeat;
+}
+
+/* Section 26 ------------- */
+
+.section26 {
+   background: url(./../img/section26.png) center / cover no-repeat;
+}
+
+/* Section 27 ------------- */
+
+.section27 {
+   background: url(./../img/section27.png) center / cover no-repeat;
+}
+
+/* Section 28 ------------- */
+
+.section28 {
+   background: url(./../img/section28.png) center / cover no-repeat;
+}
+
+/* Section 29 ------------- */
+
+.section29 {
+   background: url(./../img/section29.png) center / cover no-repeat;
+}
+
+/* Section 30 ------------- */
+
+.section30 {
+   background: url(./../img/section30.png) center / cover no-repeat;
+}
+
+/* Section 31 ------------- */
+
+.section31 {
+   background: url(./../img/section31.png) center / cover no-repeat;
+}
+
+/* Section 32 ------------- */
+
+.section32 {
+   background: url(./../img/section32.png) center / cover no-repeat;
+}
+
+/* Section 33 ------------- */
+
+.section33 {
+   background: url(./../img/section33.png) center / cover no-repeat;
+}
+
+/* Section 34 ------------- */
+
+.section34 {
+   background: url(./../img/section34.png) center / cover no-repeat;
+}
+
+/* Section 35 ------------- */
+
+.section35 {
+   background: url(./../img/section35.png) center / cover no-repeat;
+}
+
+/* Section 36 ------------- */
+
+.section36 {
+   background: url(./../img/section36.png) center / cover no-repeat;
+}
+
 /* Footer */
 .section22 {
    background: url(./../img/section22.png) center / cover no-repeat;
@@ -526,13 +594,9 @@ a.theme:hover {
 
 /* Footer ---------------- */
 .footer {
-   /* background: url(./../img/copyright-bg.png) center / cover no-repeat; */
-   background-color: #fbfbfb;
+   background: url(./../img/footer.png) center / cover no-repeat;
 }
 
-.footer {
-   /* background-color: #e9e9f5; */
-}
 .footer a {
    text-decoration: none;
    color: #133379;
