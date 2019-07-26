@@ -10,6 +10,11 @@ body {
 
 h1 {
    /* font-size: 55px; */
+   font-weight: 600;
+   margin: 0;
+}
+h2 {
+   margin: 0;
 }
 
 @media (max-width: 575px) {
@@ -33,6 +38,11 @@ p {
 .black {
    color: #313131;
 }
+
+.dark {
+   color: #22223b;
+}
+
 .white {
    color: white;
 }
@@ -66,7 +76,7 @@ p {
 }
 
 .bg-red-paint-lg {
-   background: url("./../img/red-paint-lg.png") center no-repeat;
+   background: url("./../img/red-paint-lg.png") center / cover no-repeat;
 }
 
 .bg-purple-paint {
@@ -110,6 +120,9 @@ p {
 }
 .b-3 {
    font-weight: 300;
+}
+.b-2 {
+   font-weight: 200;
 }
 .b-1 {
    font-weight: 100;
@@ -199,9 +212,11 @@ ul {
 
 .blue-strip {
    display: inline-block;
-   background-color: #1274bd;
-   font-weight: 700;
+   background-color: #393959;
+   /* font-weight: 700; */
    color: white;
+   padding: 0.75rem 1.5rem;
+   border-radius: 50rem;
    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
@@ -298,27 +313,35 @@ a.theme:hover {
 }
 
 .button-container a {
-   background-color: #ffef00;
-   color: #00528e;
+   background: linear-gradient(90deg, #2ecc71, #0ca34c);
+   color: white;
    font-weight: 700;
    text-decoration: none;
-   /* box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3); */
+   /* border: 8px solid; */
+   /* border-color: linear-gradient(90deg, #2ecc71, #0ca34c); */
    box-shadow: 10px 17px 35px 0px rgba(0, 0, 0, 0.2);
    transition: 0.4s ease transform;
+   padding: 0.9rem 2rem;
+}
+.button-container h6 {
+   font-weight: 400;
+   color: #22223b;
+}
 
-   padding: 1rem 2rem;
+.button-border-box {
+   display: inline-block;
+   background: linear-gradient(90deg, rgba(46, 204, 113, 0.4), rgba(12, 161, 74, 0.4));
+   border-radius: 50rem;
+   padding: 0.75rem;
 }
-.button-container a h4 {
-   font-weight: 600;
-}
-.button-container a:hover {
-   /* color: #004272; */
+
+/* .button-container a:hover {
    box-shadow: 18px 25px 35px rgba(0, 0, 0, 0.2);
-   -webkit-transform: scale(1.05);
-   -moz-transform: scale(1.05);
-   -o-transform: scale(1.05);
-   transform: scale(1.05);
-}
+   -webkit-transform: scale(1.02);
+   -moz-transform: scale(1.02);
+   -o-transform: scale(1.02);
+   transform: scale(1.02);
+} */
 
 /* ----------- Head */
 
