@@ -9,7 +9,12 @@ body {
 }
 
 h1 {
-   font-size: 55px;
+   /* font-size: 55px; */
+   font-weight: 600;
+   margin: 0;
+}
+h2 {
+   margin: 0;
 }
 
 @media (max-width: 575px) {
@@ -66,7 +71,7 @@ p {
 }
 
 .bg-red-paint-lg {
-   background: url("./../img/red-paint-lg.png") center no-repeat;
+   background: url("./../img/red-paint-lg.png") center / cover no-repeat;
 }
 
 .bg-purple-paint {
@@ -110,6 +115,9 @@ p {
 }
 .b-3 {
    font-weight: 300;
+}
+.b-2 {
+   font-weight: 200;
 }
 .b-1 {
    font-weight: 100;
@@ -199,9 +207,11 @@ ul {
 
 .blue-strip {
    display: inline-block;
-   background-color: #1274bd;
-   font-weight: 700;
+   background-color: #393959;
+   /* font-weight: 700; */
    color: white;
+   padding: 0.75rem 1.5rem;
+   border-radius: 50rem;
    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
