@@ -45,7 +45,7 @@ p {
 }
 
 .white {
-   color: white;
+   color: white !important;
 }
 
 .pink {
@@ -62,6 +62,10 @@ p {
 
 .red {
    color: #be1313;
+}
+
+.bg-pink {
+   background-color: #ee4266;
 }
 
 .bg-grey {
@@ -100,13 +104,18 @@ p {
 }
 
 .h-1 {
-   font-size: 1.5rem;
+   font-size: 1.5rem !important;
 }
 @media (max-width: 575px) {
    .h-1 {
-      font-size: 1.15rem;
+      font-size: 1.15rem !important;
    }
 }
+
+.display-1 {
+   font-size: 8rem !important;
+}
+
 .b-7 {
    font-weight: 700;
 }
@@ -137,7 +146,7 @@ p {
 }
 
 .br-2 {
-   border-radius: 15px;
+   border-radius: 15px !important;
 }
 .br-3 {
    border-radius: 20px;
@@ -202,7 +211,7 @@ ul {
    display: inline-block;
    padding: 1rem 1.5rem;
    background-color: white;
-   color: #1274bd;
+   color: #523889;
    border-radius: 50rem;
    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
@@ -268,6 +277,18 @@ a.theme:hover {
    padding-left: 2rem;
 }
 
+.features-list-2 ul {
+   list-style-type: none;
+   /* list-style-image: 0 0 url(./../img/head-logo.png); */
+}
+.features-list-2 ul li {
+   /* min-height: 61px; */
+   margin: 0 0 1rem;
+   background: no-repeat 0px 7px url(./../img/arrow-right.png);
+   /* box-shadow: 4px 5px 3px #000; */
+   padding-left: 2rem;
+}
+
 .time-box {
    font-size: 0.5rem;
    padding: 0.25rem 0.75rem 0.45rem;
@@ -290,7 +311,24 @@ a.theme:hover {
    }
 }
 
-/* Head section */
+/* Red content in white circles */
+
+.white-icons.row .rounded-circle {
+   width: 200px;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+.white-icons.row .rounded-circle h1 {
+   font-size: 4.5rem;
+}
+
+/* ---------------- Main Page ---------------- */
+/* Section 1 */
 
 .section1 {
    background: url(./../img/section1.png) center / cover no-repeat;
@@ -314,6 +352,16 @@ a.theme:hover {
 @media (min-width: 768px) and (max-width: 992px) {
    .video iframe {
       height: 23.4rem;
+   }
+}
+
+.featured-video iframe {
+   height: 200px;
+}
+
+@media (min-width: 786px) and (max-width: 991px) {
+   .featured-video iframe {
+      height: 375px;
    }
 }
 
@@ -352,8 +400,6 @@ a.theme:hover {
    transform: scale(1.02);
 } */
 
-/* ----------- Head */
-
 /* Section 2 ------------- */
 
 .section2 {
@@ -361,7 +407,6 @@ a.theme:hover {
 }
 
 /* Section 3 ------------- */
-
 .section3 {
    background: url(./../img/section3.png) center / cover no-repeat;
 }
@@ -383,42 +428,79 @@ a.theme:hover {
    background: url(./../img/section5.png) center / cover no-repeat;
 }
 
-.section5 .row .rounded-circle {
-   width: 200px;
-   height: 200px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin-left: auto;
-   margin-right: auto;
-}
-.section5 .row .rounded-circle h1 {
-   font-size: 4.5rem;
-}
-
 /* Section 6 ------------- */
 
 .section6 {
    background: url(./../img/section6.png) center / cover no-repeat;
 }
 
-/* Section 10 */
+/* Section 7 ------------- */
+.section7 {
+   background: url(./../img/section7.png) center / cover no-repeat;
+}
+
+/* Section 8 ------------- */
+.section8 {
+   background: url(./../img/section8.png) center / cover no-repeat;
+}
+.section8 .point img {
+   /* position: absolute; */
+   margin: -50px;
+   margin-left: -2.8rem !important;
+}
+
+@media (max-width: 575px) {
+   .section8 .point img {
+      margin: 0;
+      margin-top: 2rem;
+      margin-left: auto !important;
+      margin-right: auto !important;
+   }
+}
+
+.section8 .point h4 {
+   padding: 2rem 2rem 2rem 2.5rem;
+}
+
+.section8 .point:nth-of-type(2) img {
+   margin-right: -3.4rem;
+   right: 0;
+}
+
+.section8 .point:nth-of-type(2) h4 {
+   padding: 2rem 2rem 2rem 2rem;
+}
+
+@media (max-width: 575px) {
+   .section8 .point h4 {
+      padding-left: 2rem;
+   }
+   .section8 .point:nth-of-type(2) h4 {
+      padding-right: 2rem;
+   }
+}
+
+/* Section 9 ------------- */
+.section9 {
+   background: url(./../img/section9.png) center / cover no-repeat;
+}
+
+/* Section 10 ------------- */
 .section10 {
    background: url(./../img/section10.png) center / cover no-repeat;
 }
 
-/* Section 11 */
+/* Section 11 ------------- */
 .section11 {
    background: url(./../img/section11.png) center / cover no-repeat;
 }
 
-/* Section 12 */
+/* Section 12 ------------- */
 .section12 {
    background: url(./../img/section12.png) center / cover no-repeat;
 }
 
-/* Section 13 */
+/* Section 13 ------------- */
 .section13 {
    background: url(./../img/section13.png) center / cover no-repeat;
 }
@@ -438,17 +520,22 @@ a.theme:hover {
    margin-bottom: 0.2rem;
 }
 
-/* Section 15 */
+/* Section 14 ------------- */
+.section14 {
+   background: url(./../img/section-x.png) center / cover no-repeat;
+}
+
+/* Section 15 ------------- */
 .section15 {
    background: url(./../img/section15.png) center / cover no-repeat;
 }
 
-/* Section 16 */
+/* Section 16 ------------- */
 .section16 {
    background: url(./../img/section16.png) center / cover no-repeat;
 }
 
-/* Section 17 */
+/* Section 17 ------------- */
 .section17 {
    background: url(./../img/section17.png) center / cover no-repeat;
 }
@@ -457,22 +544,22 @@ a.theme:hover {
    margin-bottom: 0;
 }
 
-/* Section 18 */
+/* Section 18 ------------- */
 .section18 {
    background: url(./../img/section18.png) center / cover no-repeat;
 }
 
-/* Section 19 */
+/* Section 19 ------------- */
 .section19 {
    background: url(./../img/section19.png) center / cover no-repeat;
 }
 
-/* Section 20 */
+/* Section 20 ------------- */
 .section20 {
    background: url(./../img/section20.png) center / cover no-repeat;
 }
 
-/* Section 21 */
+/* Section 21 ------------- */
 .section21 {
    background: url(./../img/section21.png) center / cover no-repeat;
 }
@@ -500,7 +587,7 @@ a.theme:hover {
    }
 }
 
-/* Section 22 */
+/* Section 22 ------------- */
 .section22 {
    background: url(./../img/section22.png) center / cover no-repeat;
 }
@@ -557,6 +644,19 @@ a.theme:hover {
    background: url(./../img/section30.png) center / cover no-repeat;
 }
 
+.section30 .bonus-strip {
+   display: inline-block;
+   position: absolute;
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0;
+   right: 0;
+   border-radius: 50rem;
+   /* top: -4.2%; */
+   top: -22px;
+}
+
 /* Section 31 ------------- */
 
 .section31 {
@@ -567,6 +667,61 @@ a.theme:hover {
 
 .section32 {
    background: url(./../img/section32.png) center / cover no-repeat;
+}
+
+.section32 .rounded-circle {
+   margin-left: auto;
+   margin-right: auto;
+   width: 312px;
+   height: 312px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 20px solid rgba(236, 65, 101, 0.5);
+}
+
+.section32 .rounded-circle > .rounded-circle {
+   width: 272px;
+   height: 272px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 20px solid #ec4165;
+}
+
+@media (min-width: 768px) {
+   .section32 .rounded-circle {
+      position: absolute;
+      width: 312px;
+      height: 312px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 20px solid rgba(236, 65, 101, 0.5);
+   }
+
+   .section32 .rounded-circle > .rounded-circle {
+      position: absolute;
+      width: 272px;
+      height: 272px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 20px solid #ec4165;
+   }
+}
+
+.section32 .rounded-circle + div {
+   padding-left: 1.5rem;
+   margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+   .section32 .rounded-circle + div {
+      padding-left: 12rem;
+      margin-left: 9rem;
+      margin-top: 0;
+   }
 }
 
 /* Section 33 ------------- */
@@ -587,17 +742,6 @@ a.theme:hover {
    background: url(./../img/section35.png) center / cover no-repeat;
 }
 
-/* Section 36 ------------- */
-
-.section36 {
-   background: url(./../img/section36.png) center / cover no-repeat;
-}
-
-/* Footer */
-.section22 {
-   background: url(./../img/section22.png) center / cover no-repeat;
-}
-
 .cross-list li {
    line-height: 22px;
    list-style: none;
@@ -616,7 +760,7 @@ a.theme:hover {
    padding: 0px 3.2rem 40px;
    width: 80%;
    margin-top: 100px;
-   color: white;
+   /* color: white; */
    border-radius: 15px;
 }
 .white-box img {
@@ -637,7 +781,7 @@ a.theme:hover {
 
 .footer a {
    text-decoration: none;
-   color: #133379;
+   color: white;
 }
 
 /* .copyright-section ul {
@@ -675,19 +819,4 @@ a.theme:hover {
    .white-box img {
       margin-top: -70px;
    }
-}
-
-/* Monica moni */
-
-.section7 {
-   background: url(./../img/section7-bg.png) center / cover no-repeat;
-}
-.section8 {
-   background: url(./../img/section8-bg.png) center / cover no-repeat;
-}
-.section9 {
-   background: url(./../img/section9-bg.png) center / cover no-repeat;
-}
-.section14 {
-   background: url(./../img/section-x.png) center / cover no-repeat;
 }
